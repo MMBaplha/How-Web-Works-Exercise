@@ -1,33 +1,35 @@
+Part One: Solidify Terminology
+
 - What is HTTP?
-# Hypertext Transfer Protortype are how browser and servers communicate.
+# Hypertext Transfer Protortype are how browser and servers communicate with each other and many other networks.
 
 - What is a URL?
-# Uniform Resource Locator are the wed page address that has an protocol and hostname and file name. http://site.com/some/page.html?x=1
+# Uniform Resource Locator are the wed page address that has an protocol and hostname and file name. 
 
 - What is DNS?
-# Domain Name System is an system that takes the URL and converts into IP addresses.
+# Domain Name System is an system like a phone book that takes the hostname and converts it into a IP addresses.
 
 - What is a query string?
-# Query are extra information and info from forms with an key-value pair in the URL.
+# Query string is a way of providing or specifying additional information as part of the URL and which it form of key-value pairs and begins with a question mark.
 
 - What are two HTTP verbs and how are they different?
-# GET: get some data from server
-# POST: sends some data to the server
+# GET: get some data from server.
+# POST: sends some data to the server.
 
 - What is an HTTP request?
-# Is a request from a client to a server which follows the HTTP protocol.
+# Is a request that sent to a server that will receive some information and decide what to repond with such data.
 
 - What is an HTTP response?
-# Is a response from a server to a client which follows the HTTP protocol 
+# Is a response from a server that send back data to the requests that was made with data like HTML, JS, CSS, etc. 
 
 - What is an HTTP header? Give a couple examples of request and response headers you have seen.
-# The HTTP header is extra information about an request or response.
-# The Header request consist of: Cache-Control, Cookie, Host
-# The Header repsonse consist of: Content-Type, Date, Access-Control-Allow-Methods 
+# The HTTP header is extra information about an request and response.
+# The Header request consist of: Cache-Control, Cookie, Accept.
+# The Header repsonse consist of: Content-Type, Date, Accept-range. 
 
 - What are the processes that happen when you type “http://somesite.com/some/page.html” into a browser?
-#1. The browser take the domain name into an IP address using DNS
-#2. The browser makes a request to that IP address. 
-#3. The server sends a response code. 
-#4. The browser makes a DOM from that HTML, and finds any other resources needed (images, CSS, JavaScript, etc)
-#5. The browser makes separate HTTP requests for those resources and receives response from the server for each
+#Step 1: The browser take the domain name into an IP address using DNS
+#Step 2: The browser makes a request to that IP address. 
+#Step 3: The server sends a response code such as 200, 300, 404, etc. 
+#Step 4: The browser makes a DOM from that HTML, and finds any other resources needed like images, CSS, JS, etc.
+#Step 5: The browser makes separate HTTP requests for those resources and receives response from the server for each.
